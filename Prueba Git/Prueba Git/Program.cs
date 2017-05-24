@@ -14,7 +14,7 @@ namespace Prueba_Git
         [STAThread]
         static void Main()
         {
-
+            Console.WriteLine("Hola mundo");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
